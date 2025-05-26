@@ -1,6 +1,10 @@
-# The Pojavlauncher Wiki Repository
+# The AngelAuraMC Wiki Repository
 
-### If you are a Pojavlauncher user who wants to report an issue, please proceed to [![Pojavlauncher Repository](https://img.shields.io/badge/Pojavlauncher-grey?style=plastic&logo=github)](https://github.com/PojavLauncherTeam/PojavLauncher/issues/new?assignees=&labels=bug&projects=&template=bug_report.yml&title=%5BBUG%5D+%3CShort+description%3E)
+### Notice regarding the transition from PojavLauncherTeam to AngelAuraMC
+The transition is still underway, and this wiki is a great example of the work to be done. Some links and information may errenously point to outdated or inaccurate results. 
+
+### Notice for Amethyst users
+Issues pertaining to Amethyst on [Android](https://github.com/AngelAuraMC/Amethyst-Android) or [iOS](https://github.com/AngelAuraMC/Amethyst-iOS) should be made in their respective repositories. They will be closed here, and repeat offenders will be blocked from this GitHub repository.
 
 #### If you are/wish to be a Wiki Contributor, continue reading
 
@@ -41,6 +45,6 @@ The repository is structured like so
 
 `arrays.js` is self-explanatory for the most part. The path in each section tells you where to put the corresponding `.md` files into as well as showing you examples on how to add your own page.
 
-If you have any questions feel free to ask on the discord! [![Discord](https://img.shields.io/discord/724163890803638273.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.com/invite/aenk3EUvER) 
+If you have any questions feel free to ask on the discord! [![Discord](https://img.shields.io/discord/724163890803638273.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.com/invite/5ptqkyZxEy) 
 
 
