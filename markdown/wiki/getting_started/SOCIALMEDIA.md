@@ -10,4 +10,4 @@ The only official Youtube account for AngelAuraMC, (sneak peaks for the next upd
 
 ## Bluesky account
 The only official Bluesky account for AngelAuraMC.
-[Bluesky account link](https://bsky.app/profile/angelauramc.bsky.social‬)
+[Bluesky account link](https://bsky.app/profile/angelauramc.dev)
