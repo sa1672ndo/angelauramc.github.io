@@ -1,22 +1,18 @@
 # Installing the launcher
 
 ## Android
-Instructions for installing PojavLauncher on Android devices.
-
-::: details Google Play
-You can grab PojavLauncher from the Google Play Store [here.](https://play.google.com/store/apps/details?id=net.kdt.pojavlaunch)
-:::
+Instructions for installing Amethyst on Android devices.
 
 ::: details GitHub Actions
 If you want the latest and greatest to test before the official release, you can grab a copy from GitHub Actions.
 
 **Using nightly.link:**
-1. Download the [Latest Artifact](https://nightly.link/PojavLauncherTeam/PojavLauncher/workflows/android/v3_openjdk/app-debug.zip) using this link.
+1. Download the [Latest Artifact](https://nightly.link/AngelAuraMC/Amethyst-Android/workflows/android/v3_openjdk/app-debug.zip) using this link.
 2. Install as any usual .apk
 
 **Using Github (requires an account):**
 
-1. Start off by heading to the [PojavLauncher](https://github.com/PojavLauncherTeam/PojavLauncher) repository and switching to the "Actions" tab.
+1. Start off by heading to the [Amethyst](https://https://github.com/AngelAuraMC/Amethyst-Android) repository and switching to the "Actions" tab.
 
 ![](./images/Actions/android/Android-Actions-1.png)
 
@@ -41,8 +37,12 @@ If you want the latest and greatest to test before the official release, you can
 **Instructions coming in a future revision to this website.**
 :::
 
+::: details Google Play
+Google Play is currently unavailable. Sorry! Try one of the methods above!
+:::
+
 ## iOS
-Instructions for installing PojavLauncher on Apple devices.
+Instructions for installing Amethyst on Apple devices.
 
 ::: details Sideloading (TrollStore)
 We recommend TrollStore for all users if possible. This method allows for automatic JIT enabling, more memory allocation, and non-revoking installs.
@@ -70,14 +70,13 @@ Note: **Enable URL Schemes in TrollStore settings: TrollStore -> Settings -> Scr
 
 1. Follow these steps to install [TrollStore](https://ios.cfw.guide/installing-trollstore/).
  
-2. Download the latest developer build from [here](https://nightly.link/PojavLauncherTeam/PojavLauncher_iOS/workflows/development/main/net.kdt.pojavlauncher-ios.ipa.zip). Expect to encounter bugs!
-    - For a specific (outdated) release, you can find its package on the [Releases](https://github.com/PojavLauncherTeam/PojavLauncher_iOS/releases) page
+2. Download the latest developer build from [here](https://nightly.link/AngelAuraMC/Amethyst-iOS/workflows/development/main/org.angelauramc.amethyst-ios.ipa.zip). Expect to encounter bugs!
 
 3. Locate where the .ipa was downloaded, tap the Share icon, and choose TrollStore in the list of options available.
 
 You can now enjoy Minecraft: Java Edition on your iDevice!
 :::
-
+<!-- TODO: fix the rest of IOS i am not touching sidestore shit :sob: -->
 ::: details Sideloading (Jailed)
 **Requires an active Apple ID, that has signed into the [Apple Developer Program](https://developer.apple.com/account).**
 
