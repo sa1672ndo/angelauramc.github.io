@@ -1,5 +1,5 @@
 # Signing in
-PojavLauncher supports multiple types of accounts to sign in:  
+Amethyst supports multiple types of accounts to sign in:  
 
 - Microsoft Accounts(*)
 - Local Accounts(^)
