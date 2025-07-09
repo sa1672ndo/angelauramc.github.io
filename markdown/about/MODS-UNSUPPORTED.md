@@ -3,24 +3,17 @@ Not everything that works on PC works on PojavLauncher. Below is a non-exhaustiv
 
 ## Performance Mods + Shaders
 - [Sodium](https://modrinth.com/mod/sodium)
-	- [GL4ES Patch](https://www.mediafire.com/folder/n004fh6pxuxk8/Sodium_1.17%2B)
-	- 0.5.x and later does not work without disabling the terrain optimization mixins. It's not recommended and therefore isn't faster than Vanilla/Optifine
 - [Embeddium](https://modrinth.com/mod/embeddium)
 	- Same problem as Sodium
 - [Rubidium](https://www.curseforge.com/minecraft/mc-mods/rubidium/files) 
-	- [Gl4ES Patch](https://www.mediafire.com/folder/jcyrf8l0osn4m/Rubidium_1.17%2B) for GL4ES, otherwise same as the previous two
+	- Same problem as Sodium
 - [Chlorine](https://www.curseforge.com/minecraft/mc-mods/chlorine)
-- [ShadersMod (GLSL Shaders)](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/1286604-shaders-mod-updated-by-karyonix)
+	- Same problem as Sodium
 - [Iris](https://www.curseforge.com/minecraft/mc-mods/irisshaders), [Iris Installer](https://irisshaders.net/download)
-- [OptiFine](https://optifine.net/home)
-	- Render Regions don't work
-- **Optifine Shaders:** The only supported shaders are [Open4ES](https://www.mediafire.com/folder/cp87zpb3ichj7/Open4ES) for GL4ES. It works best with Adreno graphics (found in Qualcomm Snapdragon SoCs) and PowerVR graphics, with required patches (found in several low-end MediaTek SoCs). Mali GPUs are not supported. Below is a list of smartphones that are tested and works with Open4ES:
-	- **Xiaomi Poco F3** (Snapdragon 870)
-	- **Xiaomi Poco X5 Pro** (Snapdragon 778G)
-	- **Xiaomi Redmi Note 8** (Snapdragon 665)
-	- **Oppo A53** (Snapdragon 460)
+	- Requires sodium to work
 - [Distant Horizons(2.0> only)](https://modrinth.com/mod/distanthorizons/versions)
-	- [install this mod](https://www.mediafire.com/file/t9ipmw6af750efi/UNZIP-ME_DH-2.0_android-patch_fabric-forge_1.16.5-1.21.zip/file)
+	- Select MobileGlues as the renderer
+	- Disable cloud rendering in DH settings (1.21>)
 
 ## Skyblock Mods
 - [Essential](https://essential.gg/)
@@ -42,21 +35,24 @@ Not everything that works on PC works on PojavLauncher. Below is a non-exhaustiv
 - [WebDisplays](https://www.curseforge.com/minecraft/mc-mods/webdisplays)
 - [Axiom](https://modrinth.com/mod/axiom)
 - [Mekanism](https://www.curseforge.com/minecraft/mc-mods/mekanism)
-	- Use angle/zink renderer.
+	- Select MobileGlues as the renderer
+- [Valkyrien Skies 2](https://modrinth.com/mod/valkyrien-skies/versions)
+	- Only works in multiplayer. 
 - [Quartz](https://www.curseforge.com/minecraft/mc-mods/quartz)
 - [Legacy4J](https://modrinth.com/mod/legacy4j)
 	- Set `selectedControllerHandler` in options.txt to 0
 - Create [**(Forge)**](https://www.curseforge.com/minecraft/mc-mods/create) [**(Fabric)**](https://modrinth.com/mod/create-fabric)
-	- On gl4es disable flywheel by running "/flywheel backend off" in game (Only works on phones with an adrenos GPUs)
-	- Or use angle/zink renderer.
+	- Select MobileGlues as the renderer
+	- (Create 0.5) Run "/flywheel backend off" in-game
+	- (Create 0.6) Run "/flywheel backend flywheel:off" in-game
 - [Flywheel](https://www.curseforge.com/minecraft/mc-mods/flywheel)
+	- Same as Create
 - [Physics Mod](https://www.curseforge.com/minecraft/mc-mods/physics-mod)
 - [Scannable](https://www.curseforge.com/minecraft/mc-mods/scannable) 
 	- Works on 1.12
 - [Colormatic](https://www.curseforge.com/minecraft/mc-mods/colormatic)
 - [ItemPhysic](https://www.curseforge.com/minecraft/mc-mods/itemphysic)
 	- [Lite](https://www.curseforge.com/minecraft/mc-mods/itemphysic-lite) works
-- RandomPatches [**(Forge)**](https://www.curseforge.com/minecraft/mc-mods/randompatches-forge) [**(Fabric)**](https://www.curseforge.com/minecraft/mc-mods/randompatches-fabric)
 - [Smooth Font](https://www.curseforge.com/minecraft/mc-mods/smooth-font)
 - [MrCrayfish's Gun Mod](https://www.curseforge.com/minecraft/mc-mods/mrcrayfishs-gun-mod)
 	- 1.16.5 is broken
