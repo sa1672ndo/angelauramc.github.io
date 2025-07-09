@@ -49,21 +49,3 @@
 11. Done, launch the game.
 
 **credits to [GaucovyAero](https://github.com/gaucovyaero/) and [ItAnthon](https://github.com/ItAnthon)**
-   
-
-# Valkyrien Skies 2
-## Android
-
-As of 2024/09/09, there is no way to run VS2 on Android in Singleplayer, so your only option is to join a VS2 server. You can host a server capable of running VS2 on Android inside Termux, but it's hard to setup. 
-
-There's a script that automates this entire process to make the installation easier, [it can be found here](https://github.com/sa1672ndo/vs2termux).
-
-(disclaimer: The script is no longer maintained and might not work.)
-
-**credits to [sa1672ndo](https://github.com/sa1672ndo)**
-
-## iOS
-
-As of 2025/04/19, Valkyrien Skies 2 can run natively on iOS, due to the implementation of [dylib patching for game dlopen calls](https://github.com/PojavLauncherTeam/PojavLauncher_iOS/commit/ec04885ce5a6d5921db4b162e5e514bc4b035db5). A developer build installation is required from the [actions tab](https://github.com/PojavLauncherTeam/PojavLauncher_iOS/actions) for now, though.
-
-**credits to [kiokori-git](https://github.com/kiokori-git)**
