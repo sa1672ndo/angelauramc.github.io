@@ -3,6 +3,7 @@ Not everything that works on PC works on PojavLauncher. Below is a non-exhaustiv
 
 ## Performance Mods + Shaders
 - [Sodium](https://modrinth.com/mod/sodium)
+	- Use Sodium pre 0.5.13/0.6.13
 - [Embeddium](https://modrinth.com/mod/embeddium)
 	- Same problem as Sodium
 - [Rubidium](https://www.curseforge.com/minecraft/mc-mods/rubidium/files) 
